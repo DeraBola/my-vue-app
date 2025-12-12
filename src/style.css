@@ -13,6 +13,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* src/styles/theme.css */
+:root {
+  --color-primary: red;
+  --color-secondary: #EC4899;
+  --color-background: #FFFFFF;
+  --color-foreground: #111111;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary-foreground: #FFFFFF;
+  --color-destructive: #EF4444;
+  --color-destructive-foreground: #FFFFFF;
+}
+
+[data-theme="dark"] {
+  --color-primary: #A78BFA;
+  --color-secondary: #F472B6;
+  --color-background: #111827;
+  --color-foreground: #F9FAFB;
+  --color-primary-foreground: #111827;
+  --color-secondary-foreground: #111827;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

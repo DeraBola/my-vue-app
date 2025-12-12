@@ -1,15 +1,24 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import "@myteam/react-storybook";
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
   <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <ui-button
+      label="Submit"
+      variant="primary"
+      size="lg"
+      loading
+      fullWidth
+      disabled
+    >
+      <!-- Prefix icon -->
+      <span slot="prefix">🚀</span>
+
+      <!-- Suffix icon -->
+      <span slot="suffix">✅</span>
+    </ui-button>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
