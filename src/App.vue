@@ -1,16 +1,17 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
+import { Camera, Check } from '@lucide/vue';
 </script>
 
 <template>
   <div>
     <ui-button
-      label="Submit"
-      variant="primary"
-      size="lg"
+      label="UPDATE"
+      variant="destructive"
+      size="xl"
       loading="false"
       full-width="true"
-      disabled="false"
+      disabled="true"
     >
       <!-- Prefix icon -->
       <span slot="prefix">🚀</span>
@@ -18,8 +19,13 @@ import HelloWorld from "./components/HelloWorld.vue";
       <!-- Suffix icon -->
       <span slot="suffix">✅</span>
     </ui-button>
+
+    <ui-button label="SUBMIT" variant="primary" size="lg" loading="false" >
+          <span slot="prefix"><Camera :size="20" color="red" :stroke-width="2" /></span>
+          <span slot="suffix"><Check :size="20" color="red" :stroke-width="2" /></span> 
+    </ui-button>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
@@ -28,11 +34,5 @@ import HelloWorld from "./components/HelloWorld.vue";
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>

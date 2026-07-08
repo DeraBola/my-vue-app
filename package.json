@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@inscale/react-ui-library": "bitbucket:inscale-dev/react-ui-components#react-to-vue",
+    "@lucide/vue": "^1.23.0",
     "install": "^0.13.0",
     "npm": "^11.18.0",
     "vue": "^3.5.24"
