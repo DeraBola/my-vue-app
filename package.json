@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@myteam/react-storybook": "bitbucket:inscale-dev/react-ui-components#CARF-116-convert-react-ui-library-components-to-web-components",
+    "@inscale/react-ui-library": "bitbucket:inscale-dev/react-ui-components#develop",
+    "install": "^0.13.0",
+    "npm": "^11.18.0",
     "vue": "^3.5.24"
   },
   "devDependencies": {
