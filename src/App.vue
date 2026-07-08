@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import "@myteam/react-storybook";
 import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
@@ -9,9 +8,9 @@ import HelloWorld from "./components/HelloWorld.vue";
       label="Submit"
       variant="primary"
       size="lg"
-      loading
-      fullWidth
-      disabled
+      loading="false"
+      full-width="true"
+      disabled="false"
     >
       <!-- Prefix icon -->
       <span slot="prefix">🚀</span>

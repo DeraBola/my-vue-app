@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import '@myteam/react-storybook/style.css';
+import '@inscale/react-ui-library/web-components';
 import './style.css'
 import App from './App.vue'
 
