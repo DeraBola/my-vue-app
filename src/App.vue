@@ -52,7 +52,7 @@ const highlight = ref(false);
 <style scoped>
 .edit-btn::part(button) {
   width: 24rem; /* your w-96 */
-  border: 2px solid #ef4444; /* your border-red-500 */
+  border: 2px solid #ef4444; /* your border-red-500 */                                                                                                                                                  
   border-radius: 0.5rem;
   animation: pulse 2s infinite;
 }
