@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
 import { Camera, Check } from "@lucide/vue";
-import { ref } from "vue";
-const highlight = ref(false);
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
@@ -11,23 +9,16 @@ const highlight = ref(false);
       label="UPDATE"
       variant="destructive"
       size="xl"
-      loading="false"
       full-width="true"
-      disabled="true"
-    >
-      <!-- Prefix icon -->
-      <span slot="prefix">🚀</span>
-
-      <!-- Suffix icon -->
-      <span slot="suffix">✅</span>
-    </ui-button>
+      prefix="🚀"
+      suffix="✅"
+    />
 
     <ui-button
       label="SUBMIT"
       variant="primary"
       size="xl"
-      loading="false"
-      disabled="false"
+      disabled="true"
       full-width="false"
     >
       <span slot="prefix"
@@ -38,22 +29,27 @@ const highlight = ref(false);
       /></span>
     </ui-button>
 
-    <!-- primary variant, but forced to secondary colors -->
     <ui-button
       label="EDIT"
       size="xl"
-      button-class="bg-muted text-muted-foreground rounded-lg border border-border w-full mt-10"
+      button-class="m-20 w-96 rounded-2xl bg-green-800 border-2 border-yellow-500"
     />
-    <ui-button label="PULSE" class="edit-btn" />
+    <ui-button label="PULSE" variant="secondary" class="edit-btn" />
   </div>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
+   <HelloWorld />
 </template>
 
 <style scoped>
-.edit-btn::part(button) {
-  width: 24rem; /* your w-96 */
-  border: 2px solid #ef4444; /* your border-red-500 */                                                                                                                                                  
+.edit-btn :deep(button) {
+  width: 24rem;
+  border: 2px solid #ef4444;
   border-radius: 0.5rem;
-  animation: pulse 2s infinite;
+  animation: my-pulse 2s infinite;
+}
+
+@keyframes my-pulse {
+  50% {
+    opacity: 0.5;
+  }
 }
 </style>
