@@ -42,21 +42,18 @@ const highlight = ref(false);
     <ui-button
       label="EDIT"
       size="xl"
-      class-name="bg-muted text-muted-foreground rounded-lg border-2 border-red-500 w-96" 
+      button-class="bg-muted text-muted-foreground rounded-lg border border-border w-full mt-10"
     />
-    <ui-button
-      label="PULSE"
-      :class-name="highlight ? 'animate-pulse shadow-md' : ''"
-    />
+    <ui-button label="PULSE" class="edit-btn" />
   </div>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.edit-btn::part(button) {
+  width: 24rem; /* your w-96 */
+  border: 2px solid #ef4444; /* your border-red-500 */
+  border-radius: 0.5rem;
+  animation: pulse 2s infinite;
 }
 </style>
