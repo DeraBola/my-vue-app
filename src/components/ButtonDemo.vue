@@ -4,7 +4,7 @@ import HelloWorld from "./HelloWorld.vue";
 </script>
 
 <template>
-  <div class=" mt-10 max-w-md rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
+  <div class=" mt-10 max-w-md h-auto rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
     <h1 class="mb-6 text-xl font-semibold text-gray-900">Button demo</h1>
 
     <section class="mb-6">
