@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Camera, Check } from "@lucide/vue";
 import HelloWorld from "./components/HelloWorld.vue";
+import CheckboxDemo from "./components/CheckboxDemo.vue";
 </script>
 
 <template>
@@ -37,6 +38,7 @@ import HelloWorld from "./components/HelloWorld.vue";
     <ui-button label="PULSE" variant="secondary" class="edit-btn" />
   </div>
    <HelloWorld />
+   <CheckboxDemo />
 </template>
 
 <style scoped>
