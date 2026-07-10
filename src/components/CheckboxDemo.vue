@@ -23,7 +23,7 @@ function onTerms(e: Event) {
 </script>
 
 <template>
-  <div class="mx-auto mt-10 max-w-md rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
+  <div class=" mt-10 max-w-md rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
     <h1 class="mb-6 text-xl font-semibold text-gray-900">Checkbox demo</h1>
 
     <section class="mb-6">
@@ -55,7 +55,7 @@ function onTerms(e: Event) {
       <h2 class="mb-2 text-sm font-medium text-gray-500">Required with error message</h2>
       <ui-checkbox
         label="I accept the terms"
-        required="true"
+        required
         :checked="terms"
         :error="terms ? '' : 'You must accept the terms to continue'"
         @change="onTerms"
@@ -74,9 +74,9 @@ function onTerms(e: Event) {
       <h2 class="mb-2 text-sm font-medium text-gray-500">Custom classes (consumer Tailwind)</h2>
       <ui-checkbox
         label="Fancy checkbox"
-        checkbox-class="size-6 border-2 border-purple-500"
-        label-class="text-purple-700 font-semibold"
-        wrapper-class="rounded-md bg-purple-50 p-3"
+        checkbox-class="size-6 border-2 border-purple-500 data-[state=checked]:bg-red-500 data-[state=checked]:text-green-400 "
+        label-class="text-pink-400 font-semibold"
+        wrapper-class="rounded-md bg-purple-300 p-3"
       />
     </section>
 
