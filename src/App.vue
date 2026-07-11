@@ -10,6 +10,8 @@ import AlertDemo from "./components/AlertDemo.vue";
 import LoadingSpinnerDemo from "./components/LoadingSpinnerDemo.vue";
 import SkeletonDemo from "./components/SkeletonDemo.vue";
 import ProgressBarDemo from "./components/ProgressBarDemo.vue";
+import AnimateDemo from "./components/AnimateDemo.vue";
+import TooltipDemo from "./components/TooltipDemo.vue";
 </script>
 
 <template>
@@ -25,5 +27,7 @@ import ProgressBarDemo from "./components/ProgressBarDemo.vue";
   <LoadingSpinnerDemo />
   <SkeletonDemo />
   <ProgressBarDemo />
+  <AnimateDemo />
+  <TooltipDemo />
   </div>
 </template>
