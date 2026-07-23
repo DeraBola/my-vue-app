@@ -74,7 +74,7 @@ function onTerms(e: Event) {
       <h2 class="mb-2 text-sm font-medium text-gray-500">Custom classes (consumer Tailwind)</h2>
       <ui-checkbox
         label="Fancy checkbox"
-        checkbox-class="size-6 border-2 border-purple-500 data-[state=checked]:bg-red-500 data-[state=checked]:text-green-400 "
+        class-name="size-6 border-2 border-purple-500 data-[state=checked]:bg-red-500 data-[state=checked]:text-green-400 "
         label-class="text-pink-400 font-semibold"
         wrapper-class="rounded-md bg-purple-300 p-3"
       />

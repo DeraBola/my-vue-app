@@ -11,19 +11,19 @@ const loading = ref(true)
     <section class="mb-6">
       <h2 class="mb-2 text-sm font-medium text-gray-500">Text lines</h2>
       <div class="flex flex-col gap-2">
-        <ui-skeleton skeleton-class="h-4 w-full" />
-        <ui-skeleton skeleton-class="h-4 w-3/4" />
-        <ui-skeleton skeleton-class="h-4 w-1/2" />
+        <ui-skeleton class-name="h-4 w-full" />
+        <ui-skeleton class-name="h-4 w-3/4" />
+        <ui-skeleton class-name="h-4 w-1/2" />
       </div>
     </section>
 
     <section class="mb-6">
       <h2 class="mb-2 text-sm font-medium text-gray-500">Profile card placeholder</h2>
       <div class="flex items-center gap-3">
-        <ui-skeleton skeleton-class="size-12 rounded-full" />
+        <ui-skeleton class-name="size-12 rounded-full" />
         <div class="flex flex-1 flex-col gap-2">
-          <ui-skeleton skeleton-class="h-4 w-1/2" />
-          <ui-skeleton skeleton-class="h-3 w-1/3" />
+          <ui-skeleton class-name="h-4 w-1/2" />
+          <ui-skeleton class-name="h-3 w-1/3" />
         </div>
       </div>
     </section>
@@ -39,9 +39,9 @@ const loading = ref(true)
         />
       </div>
       <div v-if="loading" class="flex flex-col gap-2">
-        <ui-skeleton skeleton-class="h-5 w-2/3" />
-        <ui-skeleton skeleton-class="h-4 w-full" />
-        <ui-skeleton skeleton-class="h-4 w-5/6" />
+        <ui-skeleton class-name="h-5 w-2/3" />
+        <ui-skeleton class-name="h-4 w-full" />
+        <ui-skeleton class-name="h-4 w-5/6" />
       </div>
       <div v-else>
         <p class="font-medium text-gray-900">Quarterly report ready</p>

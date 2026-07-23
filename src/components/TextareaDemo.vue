@@ -87,7 +87,7 @@ function onFeedback(e: Event) {
       <ui-textarea
         label="Fancy textarea"
         placeholder="dashed amber border"
-        textarea-class="border-2 border-dashed border-amber-400 bg-amber-50"
+        class-name="border-2 border-dashed border-amber-400 bg-amber-50"
         label-class="text-amber-700 font-semibold"
         rows="3"
       />

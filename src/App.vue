@@ -6,6 +6,7 @@ import TextfieldDemo from "./components/TextfieldDemo.vue";
 import TextareaDemo from "./components/TextareaDemo.vue";
 import TypographyDemo from "./components/TypographyDemo.vue";
 import BadgeDemo from "./components/BadgeDemo.vue";
+import BreadcrumbDemo from "./components/BreadcrumbDemo.vue";
 import AlertDemo from "./components/AlertDemo.vue";
 import LoadingSpinnerDemo from "./components/LoadingSpinnerDemo.vue";
 import SkeletonDemo from "./components/SkeletonDemo.vue";
@@ -23,6 +24,7 @@ import TooltipDemo from "./components/TooltipDemo.vue";
   <TextareaDemo />
   <TypographyDemo />
   <BadgeDemo />
+  <BreadcrumbDemo />
   <AlertDemo />
   <LoadingSpinnerDemo />
   <SkeletonDemo />

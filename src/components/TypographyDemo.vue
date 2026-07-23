@@ -37,7 +37,7 @@
 
     <section>
       <h2 class="mb-2 text-sm font-medium text-gray-500">as + custom class</h2>
-      <ui-typography as="span" typography-class="underline decoration-wavy decoration-pink-400">
+      <ui-typography as="span" class-name="underline decoration-wavy decoration-pink-400">
         A span with wavy pink underline
       </ui-typography>
     </section>

@@ -42,7 +42,7 @@ import HelloWorld from "./HelloWorld.vue";
       <ui-button
         label="EDIT"
         size="xl"
-        button-class="m-2 w-96 rounded-2xl bg-green-800 border-2 border-yellow-500"
+        class-name="m-2 w-96 rounded-2xl bg-green-800 border-2 border-yellow-500"
       />
     </section>
 

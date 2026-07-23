@@ -45,7 +45,7 @@ function logChange(e: Event) {
       <h2 class="mb-2 text-sm font-medium text-gray-500">Custom styling</h2>
       <ui-tooltip
         content="Dark bubble, amber trigger"
-        trigger-class="border-amber-500 text-amber-700"
+        class-name="border-amber-500 text-amber-700"
         content-class="bg-gray-900 text-white"
         arrow-class="bg-gray-900 fill-gray-900"
       >

@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "inscale:ui": "npm install git+ssh://git@bitbucket.org/inscale-dev/react-ui-components.git#CARF-362-breadcrumb"
   },
   "dependencies": {
-    "@inscale/react-ui-library": "bitbucket:inscale-dev/react-ui-components#react-to-vue",
+    "@inscale/react-ui-library": "bitbucket:inscale-dev/react-ui-components#CARF-362-breadcrumb",
     "@lucide/vue": "^1.23.0",
     "install": "^0.13.0",
     "npm": "^11.18.0",

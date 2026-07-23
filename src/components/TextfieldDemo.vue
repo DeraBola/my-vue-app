@@ -72,7 +72,7 @@ function onPassword(e: Event) {
           variant="ghost"
           size="xs"
           class="absolute right-2 bottom-2"
-          button-class="px-1 text-gray-500"
+          class-name="px-1 text-gray-500"
           :aria-label="showPassword ? 'Hide password' : 'Show password'"
           @click="showPassword = !showPassword"
         >
@@ -95,7 +95,7 @@ function onPassword(e: Event) {
       <ui-textfield
         label="Fancy input"
         placeholder="rounded, purple focus"
-        input-class="rounded-full border-purple-400 focus:border-purple-600"
+        class-name="rounded-full border-purple-400 focus:border-purple-600"
         label-class="text-purple-700 font-semibold"
       />
     </section>
