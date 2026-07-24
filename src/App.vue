@@ -7,6 +7,11 @@ import TextareaDemo from "./components/TextareaDemo.vue";
 import TypographyDemo from "./components/TypographyDemo.vue";
 import BadgeDemo from "./components/BadgeDemo.vue";
 import BreadcrumbDemo from "./components/BreadcrumbDemo.vue";
+import DropdownDemo from "./components/DropdownDemo.vue";
+import ModalDemo from "./components/ModalDemo.vue";
+import PaginationDemo from "./components/PaginationDemo.vue";
+import TableDemo from "./components/TableDemo.vue";
+import TabsDemo from "./components/TabsDemo.vue";
 import AlertDemo from "./components/AlertDemo.vue";
 import LoadingSpinnerDemo from "./components/LoadingSpinnerDemo.vue";
 import SkeletonDemo from "./components/SkeletonDemo.vue";
@@ -25,6 +30,11 @@ import TooltipDemo from "./components/TooltipDemo.vue";
   <TypographyDemo />
   <BadgeDemo />
   <BreadcrumbDemo />
+  <DropdownDemo />
+  <ModalDemo />
+  <PaginationDemo />
+  <TabsDemo />
+  <TableDemo />
   <AlertDemo />
   <LoadingSpinnerDemo />
   <SkeletonDemo />

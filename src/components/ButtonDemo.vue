@@ -63,7 +63,7 @@ import HelloWorld from "./HelloWorld.vue";
   width: 24rem;
   border: 2px solid #ef4444;
   border-radius: 0.5rem;
-  animation: my-pulse 2s infinite;
+  /* animation: my-pulse 2s infinite; */
 }
 
 @keyframes my-pulse {
