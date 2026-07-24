@@ -12,11 +12,11 @@ const customPage = ref(3);
     <section class="mb-6">
       <h2 class="mb-2 text-sm font-medium text-gray-500">Basic (@page-change)</h2>
       <ui-pagination page-count="12" :current-page="page" @page-change="page = $event.detail.page" />
-      <p class="mt-2 text-sm text-gray-600">Current page: <span class="font-mono">{{ page }}</span></p>
+      <p class="mt-2 text-bold text-gray-600">Current page: <span class="font-mono">{{ page }}</span></p>
     </section>
 
     <section class="mb-6">
-      <h2 class="mb-2 text-sm font-medium text-gray-500">Custom prev/next labels (slots)</h2>
+      <h2 class="mb-2 text-sm font-medium">Custom prev/next labels (slots)</h2>
       <ui-pagination
         page-count="8"
         :current-page="customPage"
@@ -24,8 +24,8 @@ const customPage = ref(3);
         margin-pages-displayed="1"
         @page-change="customPage = $event.detail.page"
       >
-        <span slot="previous-label" class="px-1 text-xs font-semibold">Prev</span>
-        <span slot="next-label" class="px-1 text-xs font-semibold">Next</span>
+        <span slot="previous-label" class="px-1 text-xs font-semibold text-amber-950">Prev</span>
+        <span slot="next-label" class="px-1 text-xs font-semibold text-blue-900">Next</span>
       </ui-pagination>
     </section>
 
